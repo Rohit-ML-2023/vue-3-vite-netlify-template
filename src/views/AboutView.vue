@@ -323,11 +323,7 @@
           e: "",
           f: "",
           g: ""
-          // h: "",
-          // i: "",
-          // j: "",
-          // k: "",
-          // l: ""
+         
         },
         APIResult: []
       };
@@ -356,12 +352,7 @@
               Owner: this.winedata.g,
   
   
-              // proanthocyanins: this.winedata.h,
-              // color_intensity: this.winedata.i,
-              // hue: this.winedata.j,
-              // od315_of_diluted_wines: this.winedata.k,
-              // proline: this.winedata.l,
-              // malic_acid: this.winedata.m
+              
             }
           })
           .then(response => {
