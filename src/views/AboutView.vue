@@ -294,60 +294,7 @@
               <pre>
                 
               </pre>
-            <!-- </div>
-            <div class="form-group col-md-3">
-              <label class="col-12 px-0" for="h">h</label>
-              <input
-                class="form-control"
-                v-model.trim="winedata.h"
-                type="number"
-                id="h"
-              />
-            </div>
-            <div class="form-group col-md-3">
-              <label class="col-12 px-0" for="i">i</label>
-              <input
-                class="form-control"
-                v-model.trim="winedata.i"
-                type="number"
-                id="i"
-              />
-            </div>
-            <div class="form-group col-md-3">
-              <label class="col-12 px-0" for="j">j</label>
-              <input
-                class="form-control"
-                v-model.trim="winedata.j"
-                type="number"
-                id="j"
-              />
-            </div>
-            <div class="form-group col-md-3">
-              <label class="col-12 px-0" for="k">k</label>
-              <input
-                class="form-control"
-                v-model.trim="winedata.k"
-                type="number"
-                id="k"
-              />
-            </div>
-            <div class="form-group col-md-3">
-              <label class="col-12 px-0" for="l">l</label>
-              <input
-                class="form-control"
-                v-model.trim="winedata.l"
-                type="number"
-                id="l"
-              />
-            </div>
-            <div class="form-group col-md-3">
-              <label class="col-12 px-0" for="m">m</label>
-              <input
-                class="form-control"
-                v-model.trim="winedata.m"
-                type="number"
-                id="m" -->
-              
+         
             </div>
             <button
               @click="predict"
@@ -362,7 +309,7 @@
     </div>
   </template>
   
-  <script>
+<script>
   import { getAPI } from "@/axios";
   export default {
     name: "Model",
