@@ -332,16 +332,9 @@
       predict() {
         getAPI
           .get("/model", {
-            params: {
-  
-              // Car_Name'))
-              // Car_Model'))
-              // Kms_Driven'))
-              // No_of_Years'))
-              // Fuel_Type'))
-              // Transmission')
-              // Owner'))
-  
+            params: 
+            {
+
   
               Car_Name: this.winedata.a,
               Car_Model: this.winedata.b,

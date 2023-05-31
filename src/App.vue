@@ -31,7 +31,7 @@ nav a.router-link-exact-active {
 </style>
 
 
-<!-- 
+
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Hello Vue 3 + Vite" />
@@ -46,4 +46,4 @@ nav a.router-link-exact-active {
   color: #2c3e50;
   margin-top: 60px;
 }
-</style> -->
+</style> 
