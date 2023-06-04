@@ -1,14 +1,11 @@
 from flask import Flask , jsonify, request
- 
 import pickle
-
 from flask_cors import CORS, cross_origin
-
 import numpy as np
 # pip install -U flask-cors 
 # # # initialize our Flask application
 app = Flask(__name__)
-app.config['ENV']="development"
+app.config['ENV']="production"
 
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
