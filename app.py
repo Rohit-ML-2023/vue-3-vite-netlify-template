@@ -5,7 +5,7 @@ import numpy as np
 # pip install -U flask-cors 
 # # # initialize our Flask application
 app = Flask(__name__)
-app.config['ENV']="production"
+app.config['ENV']="Devlopment"
 
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
