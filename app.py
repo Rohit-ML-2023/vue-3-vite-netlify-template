@@ -1,4 +1,5 @@
-import Flask from flask    , jsonify, request
+from flask import Flask , jsonify, request
+ 
 import pickle
 
 from flask_cors import CORS, cross_origin
@@ -19,8 +20,6 @@ model = pickle.load(open('car_dekho.pickle', 'rb'))
 @cross_origin()
 def helloWorld():
     return "Hello, -Rohit!"
-
-
 
 @app.route("/model", methods=["GET"])
 def predwine():
